@@ -1,0 +1,19 @@
+0.  BMP - supports 16,777,216 colors per pixel; GIF - 265 CPP; JPEG - 16,777,216 CPP; PNG - 16,777,216 CPP; 
+1.  GIF
+2.  Lossy compresion discards parts of the data in a file to reduce the data that would need to be stored. Lossless compression is allows original data to be perfectly reconstructed after compression.  
+3.  JPEG
+4.  The filesname's first character in file's directory entry to signal the file has been deleted and that the directory entry can be recycled. Second, system moves all the file's FAT clusters to the hard drive's list of free clusters. 
+5.  Overwrite the data
+6.  Stdint.h is a header file that solves the issue of portability of programs. Basic integer types were insufficient because they could vary across systems. The new types are defined in stdint.h.  
+7.  These are exact-width integer types, either signed or unsigned. Each of these typedefs has an integer width of exactly N. 
+8.  BYTE = 8 bit unsigned, DWORD = 32 bit unsigned, LONG = 32 bit signed, WORD = 16 bit signed
+9.  The first two bytes of any BMP files must be B and M in 1-byte ASCII encoding
+10. bfsize defines the size, in bytes, of the BITMAP, bisize defines the number of bytes required by the sturcture
+11. Bitmap is a top-down DIB and its origin is the upper-left corner
+12. biBitCount
+13. File isn't open? 
+14. File design doesn't allow for more than 1 element to be copied
+15. 3
+16. Moves to a certain position in the file (Change the file position of the stream.)
+17. Sets the value of whence to the current file position
+18. Milo Banana
